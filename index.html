@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>冰雪奇缘</title>
+	<script type="text/javascript" src="index.js"></script>
+	<link href="index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<audio id="player">
+ 		<source src="music/Let it go.mp3" type="audio/mp3"></source>
+ 	</audio>
+ <div class="top" id="top">
+ <div class="logo">
+ 	<h1><span style="cursor: pointer;" id="start">FRO</span><span style="cursor: pointer;" id="stop">ZEN</span></h1>
+ </div>
+ </div>
+ <div class="nav">
+ 		<div class="nav_con">
+ 		    <ul>
+                <li class="bt" id="btn">
+                    <a href="#" class="choose">首页</a>
+                    <ul class="di" id="din">
+                    <li><a href="#short">简介</a></li>
+                    <li><a href="#roles">角色介绍</a></li>
+                    <li><a href="#music">音乐原声</a></li>
+                    </ul>
+                </li>
+                <li class="bn">
+                    <a class="no1">幕后花絮</a>
+                    <a class="no2">幕后花絮</a>
+                </li> 
+                <li class="bn">
+                    <a class="no1">影片评价</a>
+                    <a class="no2">影片评价</a>
+                </li>
+                <li class="bn">
+                    <a class="no1">精彩片段</a>
+                    <a class="no2">精彩片段</a>
+                </li>
+                <li class="bn">
+                    <a class="no1">观看原片</a>
+                    <a class="no2" href="http://tv.cctv.com/2016/07/23/VIDEzpmJe57Yx79Syd5oSN81160723.shtml">观看原片</a>
+                </li>
+                <li class="bt" id="btm">
+                    <a>相关影片</a>
+                    <ul class="di" id="dim">
+                    <li><a href="https://baike.baidu.com/item/%E5%86%B0%E9%9B%AA%E5%A5%87%E7%BC%982/15855726?fr=aladdin">Frozen II</a></li>
+                    <li><a href="https://baike.baidu.com/item/%E5%86%B0%E9%9B%AA%E5%A5%87%E7%BC%98%EF%BC%9A%E7%94%9F%E6%97%A5%E6%83%8A%E5%96%9C">Frozen Fever</a></li>
+                    </ul>
+                </li> 
+            </ul>
+        </div>
+ </div> 
+<div class="banner">
+	<div class="banner_pic"  id="banner_pic">
+		<div class="current"><img src="img/bg1.jfif"></div>
+		<div class="pic"><img src="img/bg3.jfif"></div>
+		<div class="pic"><img src="img/bg4.jfif"></div>
+		<div class="pic"><img src="img/bg6.jfif"></div>
+	</div>
+	<ol id="button">
+		<li class="current"></li>
+		<li class="but"></li>
+		<li class="but"></li>
+		<li class="but"></li>
+	</ol>
+</div>
+<div class="content" id="content">
+<div class="short" id="short">
+<h2>简介</h2>
+<br>
+<div class="word">
+	<p>《冰雪奇缘》（Frozen）是2013年迪士尼出品的3D动画电影，由克里斯·巴克、珍妮弗·李执导，克里斯汀·贝尔、伊迪娜·门泽尔等参与主要配音。该片于2013年11月27日在美国上映。</p>
+	<p>该片改编自安徒生童话《白雪皇后》，讲述小国阿伦黛尔因一个魔咒永远地被冰天雪地覆盖，为了寻回夏天，安娜公主和山民克里斯托夫以及他的驯鹿搭档组队出发，展开一段拯救王国的历险。</p>
+	<p>2014年，该片获得第86届奥斯卡金像奖最佳动画长片。截止2014年7月16日，该片以全球12.74亿美元的票房成为全球动画史票房冠军，成为影史票房榜第五名。</p>
+	</div>
+<div class="pic">
+	<img src="img/pt.jpg">
+</div>
+</div>
+<div class="roles" id="roles">
+<h2>角色介绍</h2>
+<div class="role">
+<audio id="annamusic">
+ 		<source src="music/Do You Want to Build a Snowman.mp3" type="audio/mp3"></source>
+ 	</audio>
+<div class="pic" id="anna">
+	<img src="img/r1.png" onclick="play()" ondblclick="pause()"></div>
+<div class="word">
+	<h3>安娜（Anna）</h3>
+	<p>配音 克里斯汀·贝尔、张安琪（大陆配音）、神田沙也加（日语配音）</p>
+	<p>阿伦黛尔王国的小公主，她勇敢无惧，有一点一根筋，但内心开朗澄澈，温柔而体贴。安娜一直都渴望与姐姐重回儿时的亲密无间。当艾莎在登基大典上意外暴露了她的魔力，并意外将王国冰封之时，安娜踏上了破除魔咒的冒险旅程。伴随她的无畏、执着和对他人的信任，安娜下定决心要解救王国，以及自己的亲人。</p></div>
+</div>
+<div class="role">
+<audio id="elsamusic">
+ 		<source src="music/For the First Time in Forever.mp3" type="audio/mp3"></source>
+ 	</audio>
+<div class="pic" id="elsa">
+	<img src="img/r2.png" onclick="play()" ondblclick="pause()"></div>
+<div class="word">
+	<h3>艾莎（Elsa）</h3>
+	<p>配音 伊迪娜·门泽尔、周帅（大陆配音）、松隆子（日语配音）</p>
+	<p>阿伦黛尔王国的长公主。从外表上看，她优雅、矜持、有王者之相。但她却一直生活在恐惧中，内心与强大的秘密搏斗——她生来就拥有呼风唤雪的魔力，这种能力美丽，又极度危险。登基大典上的意外导致她的魔法失控，使得王国被冰天雪地所覆盖。她害怕自己会再次伤害他人，孤身逃进了雪山</p></div>
+</div>
+<div class="role">
+<div class="pic">
+	<img src="img/r3.png"></div>
+<div class="word">
+	<h3>克里斯托夫（Kristoff）</h3>
+	<p>配音 乔纳森·格罗夫、赵乾景（大陆配音）、木村昴（日语配音）</p>
+	<p>一个野外生存者，他居住在雪山的山顶，以采集冰块销售给阿伦黛尔王国为生。克里斯托夫不修边幅，强壮而威严，有着自己的生活原则。他看起来很不合群，不过却有一位最好的朋友陪伴——他那忠心耿耿、脏脏兮兮的驯鹿斯文。</p></div>
+</div>
+<div class="role">
+<div class="pic">
+	<img src="img/r4.png"></div>
+<div class="word">
+	<h3>斯文（Sven）</h3>
+	<p>虽然是一头驯鹿，但内心可是藏着一只拉布拉多犬。他是克斯托夫的好友、雪橇“司机”和良心。斯特深爱着坦率正直的主人，并不声不响地用行动表达。虽然不会说话，不过他的鼻息声通常就能让大家明白他的观点。斯特惟一的愿望就是克斯托夫在代表自己说话时改掉那搞笑的驯鹿腔。</p></div>
+</div>
+<div class="role">
+<div class="pic">
+	<img src="img/r5.png"></div>
+<div class="word">
+	<h3>汉斯（Hans）</h3>
+	<p>配音 圣蒂诺·方塔纳、刘北辰（大陆配音）、关智一（日语配音）</p>
+	<p>一位来邻国南方小岛的英俊王子，来阿伦黛尔参加艾莎的加冕礼。有十二个哥哥在上头的汉斯总觉得自己很没存在感，对此安娜与他深感共鸣。汉斯非常聪明、善解人意且彬彬有礼。不像艾莎，汉斯承诺永远不会把安娜关在心门之外；他很可能就是安娜等待了这么多年的缘分，然而汉斯却另有所图。</p></div>
+</div>
+<div class="role">
+<audio id="olafmusic">
+ 		<source src="music/In Summer.mp3" type="audio/mp3"></source>
+ 	</audio>
+<div class="pic" id="olaf">
+	<img src="img/r6.png" onclick="play()" ondblclick="pause()"></div>
+<div class="word">
+	<h3>雪宝（Olaf）</h3>
+	<p>配音 乔什·盖德、吴磊（大陆配音）、松本保典（日语配音）</p>
+	<p>他叫奥洛夫，喜欢热情的拥抱。经由艾莎的魔力创造而意外诞生，奥洛夫是史上最友好的雪人。他天真、开朗的个性惹人喜爱；他的古怪能力则能使其时不时就身首分离，把场面变得尴尬又搞笑。奥洛夫还拥有世界上最异想天开的梦想——他期待迎接夏日的暖风与骄阳。</p></div>
+</div>
+</div>
+<div class="music" id="music">
+<h2>音乐原声</h2>
+	<table>
+	<tr>
+		<th>编号</th>
+		<th>曲目</th>
+		<th>演唱</th>
+		<th>时长</th>
+	</tr>
+	<tr>
+		<th>01</th>
+		<th>Frozen Heart</th>
+		<th>影片配音演员</th>
+		<th>1:45</th>
+	</tr>
+	<tr>
+		<th>02</th>
+		<th>Do You Want to Build a Snowman?</th>
+		<th>Kristen Bell, Agatha Lee Monn 和 Katie Lopez</th>
+		<th>3:27</th>
+	</tr>
+	<tr>
+		<th>03</th>
+		<th>For the First Time in Forever</th>
+		<th>Kristen Bell 和 Idina Menzel</th>
+		<th>3:45</th>
+	</tr>
+	<tr>
+		<th>04</th>
+		<th>Love Is an Open Door</th>
+		<th>Kristen Bell 和 Santino Fontana</th>
+		<th>2:07</th>
+	</tr>
+	<tr>
+		<th>05</th>
+		<th>Let It Go</th>
+		<th>Idina Menzel</th>
+		<th>3:44</th>
+	</tr>
+	<tr>
+		<th>06</th>
+		<th>Reindeer Are Better Than People</th>
+		<th>Jonathan Groff</th>
+		<th>0:50</th>
+	</tr>
+	<tr>
+		<th>07</th>
+		<th>In Summer</th>
+		<th>Josh Gad</th>
+		<th>1:54</th>
+	</tr>
+	<tr>
+		<th>08</th>
+		<th>For the First Time in Forever （Reprise）</th>
+		<th>Kristen Bell 和 Idina Menzel</th>
+		<th>2:30</th>
+	</tr>
+	<tr>
+		<th>09</th>
+		<th>Fixer Upper</th>
+		<th>影片配音演员</th>
+		<th>3:02</th>
+	</tr>
+	<tr>
+		<th>10</th>
+		<th>Let It Go</th>
+		<th>Demi Lovato</th>
+		<th>3:47</th>
+	</tr>
+	</table>
+</div>
+</div>
+<div class="footer">
+    <div class="back">
+        <a href="#top">Top</a>
+    </div>
+    <div class="word">
+        <p>版权所有 2021 - 2022 forse</p>
+        <p>地址：吉首大学张家界学院</p>
+        <p>电话：19892299928 QQ：2684645808 邮箱: 2684645808@qq.com</p>
+    </div>
+</div> 
+</body>
+</html>
